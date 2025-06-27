@@ -26,7 +26,9 @@ const Navbar = () => {
               <Link className="font-semibold text-[18px]">Forum</Link>
             </li>
             <li>
-              <Link className="font-semibold text-[18px]">Service Community</Link>
+              <Link className="font-semibold text-[18px]">
+                Service Community
+              </Link>
             </li>
             <li>
               <Link className="font-semibold text-[18px]">Contact Us</Link>
@@ -36,21 +38,22 @@ const Navbar = () => {
 
         {/* Right: Login Button */}
         <div className="navbar-end">
-          <button className="btn bg-[#8A893F] text-white border-none hover:bg-[#7a7935]">
+          <button className="btn bg-[#8A893F] text-white border-none px-8 font-medium  hover:bg-[#7a7935]">
             Login
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-4 w-4 ml-1"
-              fill="none"
+              width="24"
+              height="24"
               viewBox="0 0 24 24"
+              fill="none"
               stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-arrow-right h-5 w-5"
             >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M17 8l4 4m0 0l-4 4m4-4H3"
-              />
+              <path d="M5 12h14"></path>
+              <path d="m12 5 7 7-7 7"></path>
             </svg>
           </button>
         </div>
