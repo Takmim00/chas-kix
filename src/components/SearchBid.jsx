@@ -4,7 +4,7 @@ import img3 from "../assets/img/Vector-3.png";
 import img4 from "../assets/img/Vector-4.png";
 const SearchBid = () => {
   return (
-    <div className="bg-[#DDE4B8] py-16">
+    <div className="bg-[#DDE4B8] py-20">
       <div className="w-11/12 mx-auto ">
         <h1 className="text-6xl font-bold">
           SEARCH.BID.CHAT.DELIVER.

@@ -2,6 +2,7 @@ import React from 'react';
 import Banner from './Banner';
 import SearchBid from './SearchBid';
 import Opportunities from './Opportunities';
+import OneSearch from './OneSearch';
 
 const Home = () => {
     return (
@@ -9,6 +10,7 @@ const Home = () => {
             <Banner/>
             <SearchBid/>
             <Opportunities/>
+            <OneSearch/>
         </div>
     );
 };
